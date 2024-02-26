@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 public class LoginForm {
     public static void main(String[] args) {
         //1. Init WebDriver session
-        WebDriver driver = DriverFactory.getChromeDriver322(); //Select once on 4 ways to initial WebDriver
+        WebDriver driver = DriverFactory.getChromeDriver311(); //Select once on 4 ways to initial WebDriver
 
         //2. Open target page
         driver.get("https://the-internet.herokuapp.com/login");

@@ -9,8 +9,8 @@ public class DriverFactory {
     //Option 1: Manually download Chrome and ChromeDriver (same version)
     public static WebDriver getChromeDriver311(){
         String pathProject = System.getProperty("user.dir");
-        String pathChrome = pathProject+"\\src\\test\\resources\\chrome-win64\\chrome.exe";
-        String pathChromeDriver = pathProject+"\\src\\test\\resources\\drivers\\chromedriver.exe";
+        String pathChrome = pathProject+"\\src\\main\\resouces\\chrome\\chrome.exe";
+        String pathChromeDriver = pathProject+"\\src\\main\\resouces\\drivers\\chromedriver.exe";
 
         System.setProperty("webdriver.chrome.driver",pathChromeDriver);
 
@@ -23,8 +23,8 @@ public class DriverFactory {
     //Option 2: Manually download ChromeDriver (Run on default Chrome version on device)
     public static WebDriver getChromeDriver312(){
         String pathProject = System.getProperty("user.dir");
-//        String pathChrome = pathProject+"\\src\\test\\resources\\chrome-win64\\chrome.exe";
-        String pathChromeDriver = pathProject+"\\src\\test\\resources\\drivers\\chromedriver.exe";
+//        String pathChrome = pathProject+"\\src\\main\\resouces\\chrome\\chrome.exe";
+        String pathChromeDriver = pathProject+"\\src\\main\\resouces\\drivers\\chromedriver.exe";
 
         System.setProperty("webdriver.chrome.driver",pathChromeDriver);
 
